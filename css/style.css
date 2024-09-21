@@ -10,7 +10,46 @@
   
   .container {
     margin: 0 auto;
-    padding: 0 10px;
-    width: 1000px;
+    padding: 10px 10px;
+    width: 1200px;
     max-width: 100%;
+  }
+
+  /* # Header */
+
+
+  .header{
+    background-color: #ACD6E4;
+    line-height: 50px;
+  }
+
+  .nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .nav-element{
+    vertical-align: middle;
+    margin: 5px 0;
+    padding: 0 5px;
+  }
+
+  .nav-element-container{
+    border: 1px dotted black;
+    display: flex;
+  }
+
+  .logo{
+    justify-content: flex-start;
+    width: 20%;
+  }
+
+  .link{
+    justify-content: center;
+    width: 60%;
+  }
+
+  .login{
+    justify-content: flex-end;
+    width: 20%;
   }
