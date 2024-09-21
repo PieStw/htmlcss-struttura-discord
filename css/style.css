@@ -21,6 +21,7 @@
   .header{
     background-color: #ACD6E4;
     line-height: 50px;
+    height: 585px;
   }
 
   .nav-bar{
@@ -37,6 +38,7 @@
   .nav-element-container{
     border: 1px dotted black;
     display: flex;
+    background-color: #D7A522;
   }
 
   .logo{
@@ -53,3 +55,13 @@
     justify-content: flex-end;
     width: 20%;
   }
+
+
+    /* # Section */
+
+    .section-header{
+      background-color: #010088;
+      height: 500px;
+    }
+
+  
