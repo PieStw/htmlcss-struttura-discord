@@ -82,7 +82,20 @@
 
     /* # Section */
 
-    
+    .section{
+      height: var(--section-height);
+      width: var(--section-width);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
 
+    .color-one{
+      background-color: #FEFEFE;
+    }
+
+    .color-two{
+      background-color: #D2D2D2;
+    }
 
   
