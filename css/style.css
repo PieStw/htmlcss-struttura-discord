@@ -89,16 +89,16 @@ hr{
 
     /* # Section */
 
+    .main>:nth-child(even){
+      background-color: #D2D2D2;
+    }
+
     .section{
       height: var(--section-height);
     }
 
-    .color-one{
-      background-color: #FEFEFE;
-    }
-
-    .color-two{
-      background-color: #D2D2D2;
+    .inverted{
+      flex-direction: row-reverse;
     }
 
     .section-container{
@@ -124,21 +124,7 @@ hr{
       border: 1px dotted black;
     }
 
-    .container-element-oneInv{
-      height: 500px;
-      width: 45%;
-      background-color: #1E8FF7;
-      border: 1px dotted black;
-    }
-  
-    .container-element-twoInv{
-      height: 500px;
-      width: 65%;
-      background-color: #F9BFCB;
-      border: 1px dotted black;
-    }
-
-    .section-big{
+    .big{
       height: 900px;
     }
 
